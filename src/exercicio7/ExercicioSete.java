@@ -1,4 +1,4 @@
-package Exercicio7;
+package exercicio7;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class ExercicioSete {
         System.out.println("A letra a está na posição " + nome.indexOf("a"));
         System.out.println("");
 
-        String nomenovo = nome.replaceAll("a", "u";
+        String nomenovo = nome.replaceAll("a", "u");
         System.out.println("Substituindo as vogais a por u " + nome.replaceAll("a", "u"));
         System.out.println("");
 
