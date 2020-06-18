@@ -20,7 +20,7 @@ public class ExercicioDez {
             case 1:
                 if (compra >= 1000) {
                     System.out.println(cliente + " Total com desconto é  " + compra * 0.85 + " reais");
-                } else if (compra >= 300 && compra < 999) {
+                } else if (compra >= 300 ) {
                     System.out.println(cliente + " Total com desconto é " + compra * 0.95 + " reais");
                 } else {
                     System.out.println(cliente + "Você não obteve desconto");
@@ -29,7 +29,7 @@ public class ExercicioDez {
             case 2:
                 if (compra >= 1000) {
                     System.out.println(cliente + " Total com desconto é   " + compra * 0.75 + " reais");
-                } else if (compra >= 300 && compra < 999) {
+                } else if (compra >= 300 ) {
                     System.out.println(cliente + " Total com desconto é  " + compra * 0.90 + " reais");
                 } else {
                     System.out.println(cliente + "Você não obteve desconto");

@@ -6,13 +6,14 @@ public class ExercicioDoze {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
 
-        System.out.println("Digite sua altura: ");
-        int altura =ler.nextInt();
+        System.out.println("Digite sua altura : ");
+        double altura =ler.nextDouble();
 
-        System.out.println("Digite seu peso: ");
-        int peso = ler.nextInt();
+        System.out.println("Digite seu peso : ");
+        double peso = ler.nextDouble();
 
-        int imc = peso / (altura*altura);
+
+        double imc = peso / (altura*altura);
         System.out.println("IMC: "+ imc);
 
         if (imc < 16 ) {
@@ -30,11 +31,5 @@ public class ExercicioDoze {
         } else {
             System.out.println("Obesidade Morbida");
         }
-
-
-
-
-
-
     }
 }
